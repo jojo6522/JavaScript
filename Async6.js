@@ -6,7 +6,9 @@ Input: File: domains.txt
 Contains one valid domain name on each line
 All supplied domains will only have a single IP addresses associated with it.
 Output: File hosts.txt
-Write a program that reads from a file domains.txt residing in a directory input.  It contains a list of valid domains one on each line, resolve each domain found to IP addresses, and save the results into a file hosts.txt residing in a directory output.  The output format should be ip_address, a tab character (\t), domain_name.
+Write a program that reads from a file domains.txt residing in a directory input.  It contains a list of valid domains one on each line, 
+resolve each domain found to IP addresses, and save the results into a file hosts.txt residing in a directory output.  
+The output format should be ip_address, a tab character (\t), domain_name.
 The order in which the results appear does not matter.  (But see Ungraded Additional Question) */
 
 const fs = require("fs");
